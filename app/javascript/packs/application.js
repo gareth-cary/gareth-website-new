@@ -10,6 +10,7 @@ require("channels")
 
 // import { tsParticles } from "tsparticles";
 
+
 // window.addEventListener('DOMContentLoaded', (event) => {
 document.addEventListener('turbolinks:load', () => {
 tsParticles.load("tsparticles", {
@@ -31,13 +32,13 @@ tsParticles.load("tsparticles", {
 
     move: {
       enable: true,
-      speed: 2
+      speed: 3
     },
     number: {
-      value: 200
+      value: 300
     },
     size: {
-      value: 1,
+      value: 2,
       random: {
         enable: true,
         minimumValue: 1
@@ -62,9 +63,16 @@ tsParticles.load("tsparticles", {
 //= require particles.min
 
 
+
+
+//= require jquery.slick
+
+
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+import "controllers"

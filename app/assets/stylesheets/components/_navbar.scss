@@ -10,3 +10,18 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+
+.navbar-one {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    position: absolute;
+    z-index: 5000;
+    width: 100%;
+    background: transparent !important;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  a {
+    color: white !important;
+  }
+}

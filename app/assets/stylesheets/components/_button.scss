@@ -1,0 +1,57 @@
+.home {
+  .title {
+    a {
+      text-decoration: none;
+      border: 3px solid #FF4848;
+      color: transparent;
+      padding: 10px 25px;
+      font-size: 18px;
+      transition: all 0.5s;
+      position: relative;
+    }
+    a:before {
+      content: "Contact";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background: #FF4848;
+      font-size: 18px;
+      top: 0;
+      left: 100%;
+      transition: all 1s;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      transform: scale(0) rotatey(0);
+      opacity: 0;
+    }
+    a:hover:before {
+      transform: scale(1) rotatey(360deg);
+      left: 0;
+      opacity: 1;
+    }
+    a:after {
+      content: "Contact";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background: #FF4848;
+      font-size: 18px;
+      top: 0;
+      left: 0;
+      transition: all 1s;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      transform: scale(1) rotatey(0);
+      opacity: 1;
+    }
+    a:hover:after {
+      transform: scale(0) rotatey(360deg);
+      left: -100%;
+      opacity: 0;
+    }
+  }
+}
