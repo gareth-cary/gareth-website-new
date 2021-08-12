@@ -9,31 +9,46 @@
     </div>
   </div>
 
-  <div class="title-programs">
-    <h2>Codding languages I can write in</h2>
+<div class="coding-languages">
+  <div class="title-programs container">
+    <h2>Welcome!!</h2>
   </div>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>If you are looking for a Web Developer or Web Designer then look know further.</h3>
+        <p>I can create modern effective Websites that will astound your piers. If you want your website to be coded or to be built using a graphical interface then please get in contact from the link below.</p>
+        <p>I can create modern effective Websites that will astound your piers. If you want your website to be coded or to be built using a graphical interface then please get in contact from the link below.</p>
+        <p>I can create modern effective Websites that will astound your piers. If you want your website to be coded or to be built using a graphical interface then please get in contact from the link below.</p>
+        <button class="button-design-one">Contact</button>
+      </div>
+      <div class="col-lg-6 coding-image">
+        <%= image_tag("developer.png")%>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="swiper-container container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><%= image_tag("html.png")%></div>
-        <div class="swiper-slide"><%= image_tag("css.png")%></div>
-        <div class="swiper-slide"><%= image_tag("javascript.png")%></div>
-        <div class="swiper-slide"><%= image_tag("jquery.png")%></div>
-        <div class="swiper-slide"><%= image_tag("ruby.png")%></div>
-        <div class="swiper-slide"><%= image_tag("rails.png")%></div>
-        <div class="swiper-slide"><%= image_tag("php.png")%></div>
-        <div class="swiper-slide"><%= image_tag("sql.png")%></div>
-        <div class="swiper-slide"><%= image_tag("wordpress.png")%></div>
-        <div class="swiper-slide"><%= image_tag("photoshop.png")%></div>
-        <div class="swiper-slide"><%= image_tag("figma.png")%></div>
-        <div class="swiper-slide"><%= image_tag("git.png")%></div>
-        <div class="swiper-slide"><%= image_tag("github.png")%></div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><%= image_tag("html.png")%></div>
+    <div class="swiper-slide"><%= image_tag("css.png")%></div>
+    <div class="swiper-slide"><%= image_tag("javascript.png")%></div>
+    <div class="swiper-slide"><%= image_tag("jquery.png")%></div>
+    <div class="swiper-slide"><%= image_tag("ruby.png")%></div>
+    <div class="swiper-slide"><%= image_tag("rails.png")%></div>
+    <div class="swiper-slide"><%= image_tag("php.png")%></div>
+    <div class="swiper-slide"><%= image_tag("sql.png")%></div>
+    <div class="swiper-slide"><%= image_tag("wordpress.png")%></div>
+    <div class="swiper-slide"><%= image_tag("photoshop.png")%></div>
+    <div class="swiper-slide"><%= image_tag("figma.png")%></div>
+    <div class="swiper-slide"><%= image_tag("git.png")%></div>
+    <div class="swiper-slide"><%= image_tag("github.png")%></div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -43,6 +58,20 @@
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 8,
+            spaceBetween: 50,
+          },
         },
       });
     </script>

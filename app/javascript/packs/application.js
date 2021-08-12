@@ -32,10 +32,10 @@ tsParticles.load("tsparticles", {
 
     move: {
       enable: true,
-      speed: 3
+      speed: 2
     },
     number: {
-      value: 300
+      value: 150
     },
     size: {
       value: 2,
@@ -50,7 +50,7 @@ tsParticles.load("tsparticles", {
       }
     },
     opacity: {
-      value: 0.9,
+      value: 0.3,
       random: {
         enable: true,
         minimumValue: 0.4
