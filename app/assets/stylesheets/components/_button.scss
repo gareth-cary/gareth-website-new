@@ -62,10 +62,11 @@
   background-color: red;
   border: none;
   color: white;
-  padding: 5px 15px;
+  padding: 9px 15px;
   font-size: 20px;
   transition: 0.5s;
   font-family: 'Trispace', sans-serif;
+  border-radius: 5px;
   &:hover {
     transition: 0.5s;
     color: red;
